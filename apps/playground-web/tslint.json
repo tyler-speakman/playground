@@ -1,0 +1,7 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [true, "attribute", "playgroundWeb", "camelCase"],
+    "component-selector": [true, "element", "playground-web", "kebab-case"]
+  }
+}
