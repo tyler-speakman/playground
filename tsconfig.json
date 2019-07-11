@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@playground-web/shell": ["libs/shell/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
